@@ -78,7 +78,7 @@ cost.
 
 ## Privacy
 
-Read the full [privacy policy](/privacy/). The short version: we
+Read the full [privacy policy](../privacy/). The short version: we
 collect nothing.
 
 ## Contact
