@@ -2,15 +2,15 @@
 published: false
 ---
 
-# traductor-www — maintainer notes
+# traductor — maintainer notes (local dir is `traductor-www/`)
 
 Static site that hosts the **Privacy Policy** and **Support** pages
 required by the App Store listing for the Traductor iOS app.
 
 Hosted via GitHub Pages. The two URLs that go into App Store Connect:
 
-- Privacy policy URL: `https://harshrn.github.io/traductor-www/privacy/`
-- Support URL: `https://harshrn.github.io/traductor-www/support/`
+- Privacy policy URL: `https://harshrn.github.io/traductor/privacy/`
+- Support URL: `https://harshrn.github.io/traductor/support/`
 
 ## Files
 
@@ -27,14 +27,17 @@ Hosted via GitHub Pages. The two URLs that go into App Store Connect:
 
 ## GitHub Pages setup (one-time)
 
-1. Repo created on GitHub as `harshRn/traductor-www`. ✅
+1. Repo created on GitHub as `harshRn/traductor` (originally `traductor-www`, renamed 2026-04-26). ✅
+   Local directory stays `traductor-www/` because macOS case-insensitive
+   APFS would collide a lowercase `traductor/` with the iOS source folder
+   `Traductor/` in the parent repo.
 2. Pushed via `git push -u origin main`. ✅
 3. **Settings → Pages** → Source = "Deploy from a branch",
    Branch = `main` / `/ (root)` → Save. Wait ~1–2 min for the first
    build.
 4. Verify both URLs return 200 with no JavaScript required:
-   - `https://harshrn.github.io/traductor-www/privacy/`
-   - `https://harshrn.github.io/traductor-www/support/`
+   - `https://harshrn.github.io/traductor/privacy/`
+   - `https://harshrn.github.io/traductor/support/`
    Cheapest check: `curl -I <url>` — expect `HTTP/2 200` and
    `content-type: text/html`.
 5. Confirm the support email in `privacy.md` + `support.md` is the
