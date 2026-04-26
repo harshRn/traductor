@@ -1,0 +1,11 @@
+title: Traductor
+description: Read EPUB and PDF in any of nine languages. Tap a word to translate.
+theme: jekyll-theme-minimal
+markdown: kramdown
+permalink: /:basename/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
