@@ -66,9 +66,9 @@ external dictionary buttons are skipped because they need the internet.
 ### Which languages are supported?
 
 Reader-side: English, French, German, Spanish, Italian, Portuguese,
-Dutch, Russian, and Hindi. The translation _target_ is whatever
-languages Apple's Translation framework supports for your source
-language.
+Dutch, Russian, Polish, Ukrainian, and Hindi. The translation _target_
+is whatever languages Apple's Translation framework supports for your
+source language.
 
 ### Family Sharing
 

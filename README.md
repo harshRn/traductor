@@ -1,6 +1,6 @@
 # Traductor
 
-Read EPUB and PDF in any of nine languages. Tap a word to translate.
+Read EPUB and PDF in any of eleven languages. Tap a word to translate.
 Save it. Watch your dictionary grow into the words you actually look up.
 
 Coming soon to the App Store for iOS 18+.
@@ -25,7 +25,7 @@ Coming soon to the App Store for iOS 18+.
   app's Share Sheet. Books stay on your device; nothing is uploaded.
 
 Reader-side languages: English, French, German, Spanish, Italian,
-Portuguese, Dutch, Russian, and Hindi.
+Portuguese, Dutch, Russian, Polish, Ukrainian, and Hindi.
 
 ## Privacy and support
 
